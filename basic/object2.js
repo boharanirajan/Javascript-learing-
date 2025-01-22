@@ -27,12 +27,21 @@ const obj2={5:"e",6:"f",7:"g"}
 //const obj3=Object.assign(obj,obj2);
 
 const obj3 = { ...obj, ...obj2 };
-console.log(obj3);
+// console.log(obj3);
 
 
 // console.log(Object.keys(tinderuser));
 // console.log(Object.values(tinderuser));
 // console.log(Object.entries(tinderuser));
 
+
 // console.log(tinderuser.hasOwnProperty('isloggedIn'));
 
+const course = {
+    coursename: "javascript",
+    price: "38848",
+    courseInstructor: "hero"
+};
+
+const { courseInstructor } = course;
+console.log(courseInstructor); // Output: hero
