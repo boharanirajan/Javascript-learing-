@@ -25,10 +25,17 @@ let value=3;
 let negValue=-value;
 //console.log(negValue);
 
-console.log(1+"3");
-console.log("1"+3);
-console.log("3"+2+3);
-console.log(1+3+"3");
+// console.log(1+"3");
+// console.log("1"+3);
+// console.log("3"+2+3);
+// console.log(1+3+"3");
 
+// let gamecounter=100;
+// ++gamecounter;
+// console.log(gamecounter);
+
+// 
+
+console.log("2"===2);
 
 
